@@ -1,0 +1,52 @@
+.taskContainer {
+    height: 5rem;
+    background: var(--gray-500, #262626);
+
+    border-radius: 8px;
+
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    align-items: center;
+
+    border: 1px solid var(--gray-400, #333);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+
+    color: var(--gray-100);
+    font-size: 1rem;
+
+    padding: 0 1rem;
+    margin-top: 1rem;
+}
+
+.taskContainer p {
+    /* flex: 1;  */
+    margin-left: 2rem;
+
+    overflow: hidden;
+}
+
+.taskContainer .done {
+    text-decoration: line-through;
+    color: var(--gray-300)
+}
+
+.taskContainer .checkbox {
+    padding: 0 2rem 0 0;
+    border-radius: 50%;
+
+    height: 1rem;
+}
+
+.taskContainer button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.taskContainer button svg {
+    color: var(--gray-300)
+}   

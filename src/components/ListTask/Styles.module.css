@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    justify-content: space-between;
+
+    color: var(--gray-100);
+    font-size: 1rem;
+}
+
+header h4 {
+    font-weight: bold;
+}
+
+header h4 {
+    color: var(--blueDark)
+}
+
+h4 + h4 {
+    color: var(--purple)
+}
+
+span {
+    background-color: var(--gray-400);
+    border-radius: 1.5rem;
+    padding: 0 .5rem;
+    margin-left: .5rem;
+    color: var(--gray-200);
+
+    font-size: .75rem;
+
+}
+
+.listTaskContainer {
+    margin-top: 3rem;
+}
