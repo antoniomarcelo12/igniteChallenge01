@@ -16,6 +16,8 @@ export function Task({currentTask, setAllTasks, allTasks, setTasksDoneCount, tas
     setAllTasks(
       allTasks.filter((T) => T.taskDescription !== currentTask.taskDescription)
     )
+
+    currentTask.isTaskDone ? setTasksDoneCount(tasksDoneCount - 1) : setTasksDoneCount(tasksDoneCount)
   }
   
   function changeTaskStatus() {

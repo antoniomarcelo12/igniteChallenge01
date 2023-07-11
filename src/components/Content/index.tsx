@@ -10,6 +10,7 @@ export const Content: React.FC = () => {
 
   const [allTasks, setAllTasks] = useState<ITask[]>([])
 
+  console.log("All tasks: ", allTasks)
 
   return (
     <main className={styles.centerContainer}>
